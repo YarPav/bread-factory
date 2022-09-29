@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heading {
     color: #DDAC55;
 }
@@ -59,4 +60,67 @@
     .navbar-brand {
         margin: 0;
     }
+=======
+.heading {
+    color: #DDAC55;
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    min-width: 275px;
+}
+
+.button {
+    background-color: #DDAC55!important;
+    border-color: #DDAC55!important;
+    outline-color: #DDAC55!important;
+}
+
+.button:hover {
+    background-color: #A47139!important;
+    border-color: #A47139!important;
+    outline-color: #A47139!important;
+}
+
+.accordion-button:not(.collapsed):after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #DDAC55!important;
+    color: #fff!important;
+    border-color: #DDAC55!important;
+    outline-color: #DDAC55!important;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 5px #A47139;
+}
+
+
+
+
+
+/*.nav-link {*/
+/*    display: inline!important;*/
+/*}*/
+/*.nav-item {*/
+/*    width: 100px;*/
+/*}*/
+
+
+@media screen and (max-width: 576px) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-nav {
+        align-items: center;
+    }
+    .navbar-brand {
+        margin: 0;
+    }
+>>>>>>> 6e2ef01 (Nav items align center)
 }
