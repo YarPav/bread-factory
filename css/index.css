@@ -34,3 +34,24 @@
 .accordion-button:focus {
     box-shadow: 0 0 0 5px #A47139;
 }
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+/*.nav-link {*/
+/*    display: inline!important;*/
+/*}*/
+/*.nav-item {*/
+/*    width: 100px;*/
+/*}*/
